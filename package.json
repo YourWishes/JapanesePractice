@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "Japanese Practice",
   "author": "Dominic Masters",
-  "description": "Easy Japanese Practice",
+  "description": "Small Japanese Practice App, not the best but great for practicing on the go.",
   "keywords": [],
   "scripts": {
     "test": "exit 1",

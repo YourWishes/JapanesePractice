@@ -1,12 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.artziedesign.japanese" version="1.0.0" versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget
+    id="com.artziedesign.japanese"
+    version="1.0.0"
+    versionCode="1"
+    xmlns="http://www.w3.org/ns/widgets"
+    xmlns:gap="http://phonegap.com/ns/1.0"
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+>
+    
     <name>Japanese Practice</name>
+    
     <description>
-        Small Japanese Practice App, not the best but great for practicing on the go. 
+        Small Japanese Practice App, not the best but great for practicing on the go.
     </description>
+    
     <author email="dominic@domsplace.com" href="http://artziedesign.com">
         Dominic Masters
     </author>
+    
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />

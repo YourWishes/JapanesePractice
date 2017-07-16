@@ -1,0 +1,47 @@
+@import "./../Styles/Global";
+
+//Animations
+@keyframes expl-line {
+    0%   {width:  0%;left: 0%;opacity:100;}
+    45%  {width: 25%;opacity:100;}
+    90% {width:   0%;left:50%;opacity:0;}
+    95% {opacity:0;}
+    100% {opacity:0;}
+}
+
+.explosion {
+    position: absolute;
+    
+    .explosion-inner {
+        position: relative;
+        width:100%;
+        height: 100%;
+    }
+
+    .explosion-line {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        
+        > .explosion-inner {
+            > .explosion-line-inner {
+                position: absolute;
+                border-bottom: 2px solid #fff;
+                animation-name: expl-line;
+                animation-duration: 1s;
+                transform: translate(-50%, -50%);
+                /* border-radius: 8px; */
+                opacity:1;
+                animation-fill-mode: forwards;
+            }
+        }
+
+        &.left{transform: rotate(180deg) translate(100%, 100%);}
+        &.up{transform: rotate(-90deg) translate(100%, 0%);}
+        &.down{transform: rotate(90deg) translate(0, 100%);}
+        &.tr{transform: translate(20%, -50%) rotate(-45deg) ;}
+        &.dr{transform: translate(-50%, 20%) rotate(45deg) ;}
+        &.dl{transform: translate(-120%, -50%) rotate(135deg) ;}
+        &.ul{transform: translate(-50%,-120%) rotate(225deg) ;}
+    }
+}
