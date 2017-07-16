@@ -1,0 +1,28 @@
+@import "./../../Styles/Global"; 
+@import "./../../Styles/Page"; 
+
+.review-page {
+    @extend .page;
+    
+    > .kana-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        
+        > .kana {
+            width: 20%;
+            font-size: 13vw;
+            padding: 2.35vw;
+            text-align: center;
+            
+            > .romaji {
+                color: #CCC;
+                display: block;
+                width: 100%;
+                font-size: 0.5em;
+            }
+        }
+    }
+}

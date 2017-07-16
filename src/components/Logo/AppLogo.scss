@@ -1,0 +1,17 @@
+@import "./../Styles/Global";
+
+.app-logo {
+    font-size: 13vmax;
+    text-align: center;
+    
+    > a {
+        > .kana {
+            padding: 0 15vw;
+        }
+        
+        > .eng {
+            display: block;
+            font-size: 0.2em;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+/*
+ * Global SCSS, Defines global page styling ONLY, imported by components, but
+ * not by tools.
+ */
+@charset "UTF-8";
+
+$navbarHeight: 48px;
+$navbarZ: 1000;
+
+//Fonts
+$navbarFont: 'MS PGothic', Osaka, Arial, Helvetica, sans-serif;
+$japaneseFont: 'Yu Gothic UI', 'Segoe UI', $navbarFont;
+
+//Colors
+$good: #1CEF55;
+$bad: #FF3F32;
+
+//Responsive
+$landscape: screen and (orientation:landscape);

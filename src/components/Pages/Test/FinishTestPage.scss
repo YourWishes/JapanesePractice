@@ -1,0 +1,38 @@
+@import "./../../Styles/Global";
+@import "./../../Styles/Page";
+
+.finish-test-page {
+    @extend .page;
+    @extend .menu;
+    
+    align-items: flex-start;
+    
+    > .flex-center-box {
+        > .options {
+            > .kana-option {
+                
+                
+                &.title {
+                    width: 100%;
+                    max-width: 100%;
+                    font-size: 5vmax;
+                }
+                
+                &.correct, &.incorrect {
+                    color: white;
+                    border-radius: 0;
+                    font-size: 11vmax;
+                    width: 50%;
+                }
+                
+                &.correct {
+                    background: $good;
+                }
+                
+                &.incorrect {
+                    background: $bad;
+                }
+            }
+        }
+    }
+}

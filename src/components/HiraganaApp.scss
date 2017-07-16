@@ -1,0 +1,50 @@
+@import "./Styles/Global";
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+//Reset
+body,html {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width:100%;
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    
+    font-family: $japaneseFont;
+    font-size: 3vmax;
+    
+    background: url("./Images/bg.png") repeat;
+}
+
+ul,ol {
+	margin:0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+@import "./Styles/Typography";
+
+.center-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.relative-fix {
+    position: relative;
+}

@@ -1,0 +1,7 @@
+@import "./../../Styles/Global";
+@import "./../../Styles/Page";
+
+.katakana-page {
+    @extend .page;
+    @extend .menu;
+}
