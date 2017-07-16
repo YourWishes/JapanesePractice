@@ -9,6 +9,10 @@
     "test": "exit 1",
     "start": "webpack --config webpack.production.config.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YourWishes/JapanesePractice.git"
+  }
   "cordova": {
     "platforms": [
       "android"
