@@ -24,7 +24,7 @@ class FinishTestPage extends Component {
 
     render() {
         let c = TestData.correct ? TestData.correct : 0;
-        let i = TestData.incorrect ? TestData.incorrect : 1;
+        let i = TestData.incorrect ? TestData.incorrect : 0;
         let p = c/(c+i);
         let quotes = [];
         

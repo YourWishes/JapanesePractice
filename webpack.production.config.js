@@ -40,7 +40,7 @@ module.exports = {
                 loaders: ['babel-loader']
             },
             {
-                test: /\.scss$|\.css$/i,                
+                test: /\.scss$|\.css$/i,
                 use: [
                     {
                         loader: "style-loader",
@@ -59,7 +59,7 @@ module.exports = {
                         options: {
                             minimize: true
                         }
-                    },
+                    }
                 ]
             },
             {
